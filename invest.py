@@ -16,7 +16,7 @@ def start():
 	years = int(years)
 	invest(principal_amount, annual_interest_rate, years)
 
-
+#this begins the program
 start()
 
 
