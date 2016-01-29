@@ -29,13 +29,13 @@ word_to_find = raw_input("> ")
 base_word =  stripped_words.index(word_to_find)
 
 
-
+words_after = []
 for i,w in enumerate(stripped_words):
     if w == word_to_find:
         # next word
-        print stripped_words[i+1]
+        words_after.append(stripped_words[i+1])
 
-#print words[base_word + 1]
+print words_after
        
 output = ("""
 The number of characters in the file is {}
